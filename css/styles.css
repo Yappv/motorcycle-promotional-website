@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Aeroblade";
+  src: url(aeroblade.ttf);
+}
+
+@font-face {
+  font-family: "MX";
+  src: url(MX0.ttf);
+}
+
+body {
+    color: azure;
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+  font-family: "Aeroblade", sans-serif;
+  font-size: 90px;
+}
+
+p{
+  font-size: 26px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  font-family: "MX", sans-serif;
+  text-transform: uppercase;
+}
+
+nav ul li a{
+  font-size: 17px;
+  color: black;
+  line-height: 80px;
+}
+
+a:hover{
+    color: gray !important;
+    transition: 0.5s; 
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.post-content {
+  background: none repeat scroll 0 0;
+  opacity: 0.8;
+  top:0;
+  left:0;
+  position: absolute;
+}
+
+.thumbnail{
+  position:relative;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 60px;
+}
+
+#front {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-sizing: border-box;
+}
